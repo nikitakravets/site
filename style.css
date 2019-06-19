@@ -1,0 +1,61 @@
+body{
+	background: green;
+	margin: 0;
+}
+header{
+	background: url(images/Polind_01.png) no-repeat;
+	height: 1209px;
+	margin: 0px;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(198,198,198,0.7);
+	position: fixed;
+	top: 0px;   
+	left: 0px;
+	right: 0px;
+	margin: 0px;
+}
+.nav li{
+	display: inline;
+}
+.logo-text{
+	color: #ffffff;
+}
+ul{
+	color: white;
+}
+h1{
+	color: white;
+	text-align: center; 
+}
+p{
+	color: white;
+	text-align: center;
+}
+.head_txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 334px;
+}
+.head_txt h1{
+	font-size: 60px;
+}
+
+.head_txt2 h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	font-size: 30px;
+}
+
+.head_txt button{
+	background-color: yellow;
+	border-radius: 5px;
+}
